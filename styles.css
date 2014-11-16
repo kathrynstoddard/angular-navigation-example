@@ -1,0 +1,19 @@
+body {
+  color: white;
+  font-family: Montserrat;
+}
+nav {
+  width: 460px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+nav ul {
+  background-color: #81CFE0;
+  text-align: center;
+  padding: 15px;
+}
+nav li {
+  margin: 0;
+  display: inline;
+  padding: 20px;
+}
