@@ -2,6 +2,8 @@
 <html>
 
   <head>
+    <meta charset="utf-8"/>
+
     <title>Navigation Menu Example</title>
 
     <!-- Google Fonts -->
@@ -10,15 +12,16 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
   </head>
 
-  <body>
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>Work</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
+<!-- ng-app here tells Angular that the code needs to be evaluated -->
+  <body ng-app>
+    <!-- Adding {{active}} will tell Angular to apply the active class to the navigation menu -->
+    <nav class="{{active}}">
+      <a href="#" class="home" ng-click="active='home'">Home</a>
+      <a href="#" class="work" ng-click="active='work'">Work</a>
+      <a href="#" class="about" ng-click="active='about'">About</a>
+      <a href="#" class="contact" ng-click="active='contact'">Contact</a>
     </nav>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
   </body>
 
 

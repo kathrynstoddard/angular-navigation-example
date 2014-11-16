@@ -3,17 +3,30 @@ body {
   font-family: Montserrat;
 }
 nav {
-  width: 460px;
-  margin: 0 auto;
-  text-transform: uppercase;
-}
-nav ul {
   background-color: #81CFE0;
   text-align: center;
-  padding: 15px;
+  width: 420px;
+  margin: 15px auto;
+  text-transform: uppercase;
+  -webkit-box-shadow: 3px 3px 1px #888;
+  box-shadow: 3px 3px 1px #888;
 }
-nav li {
+nav.home .home,
+nav.work .work,
+nav.about .about,
+nav.contact .contact {
+  background-color: #F4B350;
+}
+nav a {
+  display: inline-block;
   margin: 0;
-  display: inline;
-  padding: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 15px 20px;
+}
+nav a:first-child {
+  padding: 15px 20px 15px 20px;
+}
+nav a:hover {
+
 }
