@@ -1,12 +1,14 @@
 body {
-  color: white;
+  color: #333;
   font-family: Montserrat;
 }
 nav {
+  float: right;
+  color: white;
   background-color: #81CFE0;
   text-align: center;
   width: 420px;
-  margin: 15px auto;
+  margin: 15px 15px 0 0;
   text-transform: uppercase;
   -webkit-box-shadow: 3px 3px 1px #888;
   box-shadow: 3px 3px 1px #888;
@@ -28,5 +30,15 @@ nav a:first-child {
   padding: 15px 20px 15px 20px;
 }
 nav a:hover {
-
+}
+h1,h2,h3 {
+  color: #888;
+  text-transform: uppercase;
+}
+h2, h3 {
+  font-weight: normal;
+}
+.container {
+  margin: 0 auto;
+  max-width: 960px;
 }
